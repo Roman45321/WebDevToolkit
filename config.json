@@ -1,0 +1,45 @@
+{
+    "servers": {
+        "apache": {
+            "config": {
+                "document_root": "C:/Other/htdocs2",
+                "php_version": "7.4.9",
+                "port": 80,
+                "version": "2.2.31"
+            },
+            "php_versions": {
+                "7.4.9": "./bin/php/php7.4.9",
+                "8.3.9": "./bin/php/php8.3.9"
+            },
+            "versions": {
+                "2.2.31": "./bin/apache/apache2.2"
+            }
+        },
+        "mysql": {
+            "config": {
+                "port": 3306,
+                "version": "9.0.1"
+            },
+            "versions": {
+                "9.0.1": "./bin/mysql/mysql9.0.1"
+            }
+        },
+        "nginx": {
+            "config": {
+                "document_root": "C:/Other/htdocs2",
+                "php_cgi_port": 9000,
+                "php_fpm_port": 0,
+                "php_version": "7.4.9",
+                "port": 81,
+                "version": "1.26.1"
+            },
+            "php_versions": {
+                "7.4.9": "./bin/php/php7.4.9",
+                "8.3.9": "./bin/php/php8.3.9"
+            },
+            "versions": {
+                "1.26.1": "./bin/nginx/nginx1.26.1"
+            }
+        }
+    }
+}
