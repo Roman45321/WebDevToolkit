@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="/icons">
+    <file>icons/off1.png</file>
+    <file>icons/on1.png</file>
+    <file>icons/apache_logo.png</file>
+    <file>icons/mysql_logo.png</file>
+    <file>icons/nginx_logo.png</file>
+    <file>icons/window_icon.png</file>
+  </qresource>
+</RCC>
